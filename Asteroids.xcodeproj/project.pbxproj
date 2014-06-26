@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267F7E3F195C414A00A44C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E3E195C414A00A44C79 /* Foundation.framework */; };
+		267F7E41195C414A00A44C79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E40195C414A00A44C79 /* CoreGraphics.framework */; };
+		267F7E43195C414A00A44C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E42195C414A00A44C79 /* UIKit.framework */; };
+		267F7E49195C414A00A44C79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267F7E47195C414A00A44C79 /* InfoPlist.strings */; };
+		267F7E4B195C414A00A44C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F7E4A195C414A00A44C79 /* main.m */; };
+		267F7E4F195C414A00A44C79 /* AAKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F7E4E195C414A00A44C79 /* AAKAppDelegate.m */; };
+		267F7E51195C414A00A44C79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267F7E50195C414A00A44C79 /* Images.xcassets */; };
+		267F7E58195C414A00A44C79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E57195C414A00A44C79 /* XCTest.framework */; };
+		267F7E59195C414A00A44C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E3E195C414A00A44C79 /* Foundation.framework */; };
+		267F7E5A195C414A00A44C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E42195C414A00A44C79 /* UIKit.framework */; };
+		267F7E62195C414A00A44C79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267F7E60195C414A00A44C79 /* InfoPlist.strings */; };
+		267F7E64195C414A00A44C79 /* AsteroidsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F7E63195C414A00A44C79 /* AsteroidsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		267F7E5B195C414A00A44C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267F7E33195C414A00A44C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267F7E3A195C414A00A44C79;
+			remoteInfo = Asteroids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		267F7E3B195C414A00A44C79 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		267F7E3E195C414A00A44C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		267F7E40195C414A00A44C79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		267F7E42195C414A00A44C79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		267F7E46195C414A00A44C79 /* Asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Asteroids-Info.plist"; sourceTree = "<group>"; };
+		267F7E48195C414A00A44C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		267F7E4A195C414A00A44C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		267F7E4C195C414A00A44C79 /* Asteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asteroids-Prefix.pch"; sourceTree = "<group>"; };
+		267F7E4D195C414A00A44C79 /* AAKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAKAppDelegate.h; sourceTree = "<group>"; };
+		267F7E4E195C414A00A44C79 /* AAKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAKAppDelegate.m; sourceTree = "<group>"; };
+		267F7E50195C414A00A44C79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		267F7E56195C414A00A44C79 /* AsteroidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		267F7E57195C414A00A44C79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		267F7E5F195C414A00A44C79 /* AsteroidsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsteroidsTests-Info.plist"; sourceTree = "<group>"; };
+		267F7E61195C414A00A44C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		267F7E63195C414A00A44C79 /* AsteroidsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsteroidsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267F7E38195C414A00A44C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F7E41195C414A00A44C79 /* CoreGraphics.framework in Frameworks */,
+				267F7E43195C414A00A44C79 /* UIKit.framework in Frameworks */,
+				267F7E3F195C414A00A44C79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267F7E53195C414A00A44C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F7E58195C414A00A44C79 /* XCTest.framework in Frameworks */,
+				267F7E5A195C414A00A44C79 /* UIKit.framework in Frameworks */,
+				267F7E59195C414A00A44C79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267F7E32195C414A00A44C79 = {
+			isa = PBXGroup;
+			children = (
+				267F7E44195C414A00A44C79 /* Asteroids */,
+				267F7E5D195C414A00A44C79 /* AsteroidsTests */,
+				267F7E3D195C414A00A44C79 /* Frameworks */,
+				267F7E3C195C414A00A44C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267F7E3C195C414A00A44C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267F7E3B195C414A00A44C79 /* Asteroids.app */,
+				267F7E56195C414A00A44C79 /* AsteroidsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267F7E3D195C414A00A44C79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				267F7E3E195C414A00A44C79 /* Foundation.framework */,
+				267F7E40195C414A00A44C79 /* CoreGraphics.framework */,
+				267F7E42195C414A00A44C79 /* UIKit.framework */,
+				267F7E57195C414A00A44C79 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		267F7E44195C414A00A44C79 /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				267F7E4D195C414A00A44C79 /* AAKAppDelegate.h */,
+				267F7E4E195C414A00A44C79 /* AAKAppDelegate.m */,
+				267F7E50195C414A00A44C79 /* Images.xcassets */,
+				267F7E45195C414A00A44C79 /* Supporting Files */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		267F7E45195C414A00A44C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				267F7E46195C414A00A44C79 /* Asteroids-Info.plist */,
+				267F7E47195C414A00A44C79 /* InfoPlist.strings */,
+				267F7E4A195C414A00A44C79 /* main.m */,
+				267F7E4C195C414A00A44C79 /* Asteroids-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		267F7E5D195C414A00A44C79 /* AsteroidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				267F7E63195C414A00A44C79 /* AsteroidsTests.m */,
+				267F7E5E195C414A00A44C79 /* Supporting Files */,
+			);
+			path = AsteroidsTests;
+			sourceTree = "<group>";
+		};
+		267F7E5E195C414A00A44C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				267F7E5F195C414A00A44C79 /* AsteroidsTests-Info.plist */,
+				267F7E60195C414A00A44C79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267F7E3A195C414A00A44C79 /* Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267F7E67195C414A00A44C79 /* Build configuration list for PBXNativeTarget "Asteroids" */;
+			buildPhases = (
+				267F7E37195C414A00A44C79 /* Sources */,
+				267F7E38195C414A00A44C79 /* Frameworks */,
+				267F7E39195C414A00A44C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroids;
+			productName = Asteroids;
+			productReference = 267F7E3B195C414A00A44C79 /* Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		267F7E55195C414A00A44C79 /* AsteroidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267F7E6A195C414A00A44C79 /* Build configuration list for PBXNativeTarget "AsteroidsTests" */;
+			buildPhases = (
+				267F7E52195C414A00A44C79 /* Sources */,
+				267F7E53195C414A00A44C79 /* Frameworks */,
+				267F7E54195C414A00A44C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267F7E5C195C414A00A44C79 /* PBXTargetDependency */,
+			);
+			name = AsteroidsTests;
+			productName = AsteroidsTests;
+			productReference = 267F7E56195C414A00A44C79 /* AsteroidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267F7E33195C414A00A44C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Akademon Ltd.";
+				TargetAttributes = {
+					267F7E55195C414A00A44C79 = {
+						TestTargetID = 267F7E3A195C414A00A44C79;
+					};
+				};
+			};
+			buildConfigurationList = 267F7E36195C414A00A44C79 /* Build configuration list for PBXProject "Asteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 267F7E32195C414A00A44C79;
+			productRefGroup = 267F7E3C195C414A00A44C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267F7E3A195C414A00A44C79 /* Asteroids */,
+				267F7E55195C414A00A44C79 /* AsteroidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267F7E39195C414A00A44C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F7E49195C414A00A44C79 /* InfoPlist.strings in Resources */,
+				267F7E51195C414A00A44C79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267F7E54195C414A00A44C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F7E62195C414A00A44C79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267F7E37195C414A00A44C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F7E4F195C414A00A44C79 /* AAKAppDelegate.m in Sources */,
+				267F7E4B195C414A00A44C79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267F7E52195C414A00A44C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F7E64195C414A00A44C79 /* AsteroidsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		267F7E5C195C414A00A44C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267F7E3A195C414A00A44C79 /* Asteroids */;
+			targetProxy = 267F7E5B195C414A00A44C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		267F7E47195C414A00A44C79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267F7E48195C414A00A44C79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		267F7E60195C414A00A44C79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267F7E61195C414A00A44C79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		267F7E65195C414A00A44C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		267F7E66195C414A00A44C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267F7E68195C414A00A44C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		267F7E69195C414A00A44C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		267F7E6B195C414A00A44C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AsteroidsTests/AsteroidsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		267F7E6C195C414A00A44C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "AsteroidsTests/AsteroidsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267F7E36195C414A00A44C79 /* Build configuration list for PBXProject "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267F7E65195C414A00A44C79 /* Debug */,
+				267F7E66195C414A00A44C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267F7E67195C414A00A44C79 /* Build configuration list for PBXNativeTarget "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267F7E68195C414A00A44C79 /* Debug */,
+				267F7E69195C414A00A44C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		267F7E6A195C414A00A44C79 /* Build configuration list for PBXNativeTarget "AsteroidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267F7E6B195C414A00A44C79 /* Debug */,
+				267F7E6C195C414A00A44C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267F7E33195C414A00A44C79 /* Project object */;
+}
