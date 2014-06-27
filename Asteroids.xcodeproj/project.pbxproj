@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2675E5FD195C473400B48C37 /* AAKOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2675E5FC195C473400B48C37 /* AAKOpenGLView.m */; };
+		2675E5FF195C478600B48C37 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2675E5FE195C478600B48C37 /* OpenGLES.framework */; };
+		2675E647195DA3C300B48C37 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2675E646195DA3C300B48C37 /* MainStoryboard.storyboard */; };
+		2675E649195DA49300B48C37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2675E648195DA49300B48C37 /* QuartzCore.framework */; };
 		267F7E3F195C414A00A44C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E3E195C414A00A44C79 /* Foundation.framework */; };
 		267F7E41195C414A00A44C79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E40195C414A00A44C79 /* CoreGraphics.framework */; };
 		267F7E43195C414A00A44C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E42195C414A00A44C79 /* UIKit.framework */; };
@@ -32,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2675E5FB195C473400B48C37 /* AAKOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAKOpenGLView.h; sourceTree = "<group>"; };
+		2675E5FC195C473400B48C37 /* AAKOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAKOpenGLView.m; sourceTree = "<group>"; };
+		2675E5FE195C478600B48C37 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2675E600195D9DCC00B48C37 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2675E646195DA3C300B48C37 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2675E648195DA49300B48C37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		267F7E3B195C414A00A44C79 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267F7E3E195C414A00A44C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		267F7E40195C414A00A44C79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2675E649195DA49300B48C37 /* QuartzCore.framework in Frameworks */,
+				2675E5FF195C478600B48C37 /* OpenGLES.framework in Frameworks */,
 				267F7E41195C414A00A44C79 /* CoreGraphics.framework in Frameworks */,
 				267F7E43195C414A00A44C79 /* UIKit.framework in Frameworks */,
 				267F7E3F195C414A00A44C79 /* Foundation.framework in Frameworks */,
@@ -96,6 +108,9 @@
 		267F7E3D195C414A00A44C79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2675E648195DA49300B48C37 /* QuartzCore.framework */,
+				2675E600195D9DCC00B48C37 /* GLKit.framework */,
+				2675E5FE195C478600B48C37 /* OpenGLES.framework */,
 				267F7E3E195C414A00A44C79 /* Foundation.framework */,
 				267F7E40195C414A00A44C79 /* CoreGraphics.framework */,
 				267F7E42195C414A00A44C79 /* UIKit.framework */,
@@ -109,6 +124,9 @@
 			children = (
 				267F7E4D195C414A00A44C79 /* AAKAppDelegate.h */,
 				267F7E4E195C414A00A44C79 /* AAKAppDelegate.m */,
+				2675E5FB195C473400B48C37 /* AAKOpenGLView.h */,
+				2675E5FC195C473400B48C37 /* AAKOpenGLView.m */,
+				2675E646195DA3C300B48C37 /* MainStoryboard.storyboard */,
 				267F7E50195C414A00A44C79 /* Images.xcassets */,
 				267F7E45195C414A00A44C79 /* Supporting Files */,
 			);
@@ -192,6 +210,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Akademon Ltd.";
 				TargetAttributes = {
+					267F7E3A195C414A00A44C79 = {
+						DevelopmentTeam = Y24464MUL3;
+					};
 					267F7E55195C414A00A44C79 = {
 						TestTargetID = 267F7E3A195C414A00A44C79;
 					};
@@ -220,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2675E647195DA3C300B48C37 /* MainStoryboard.storyboard in Resources */,
 				267F7E49195C414A00A44C79 /* InfoPlist.strings in Resources */,
 				267F7E51195C414A00A44C79 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				267F7E4F195C414A00A44C79 /* AAKAppDelegate.m in Sources */,
+				2675E5FD195C473400B48C37 /* AAKOpenGLView.m in Sources */,
 				267F7E4B195C414A00A44C79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,10 +381,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
 				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +397,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
 				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +467,7 @@
 				267F7E69195C414A00A44C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		267F7E6A195C414A00A44C79 /* Build configuration list for PBXNativeTarget "AsteroidsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +476,7 @@
 				267F7E6C195C414A00A44C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
