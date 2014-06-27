@@ -11,6 +11,8 @@
 		2675E5FF195C478600B48C37 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2675E5FE195C478600B48C37 /* OpenGLES.framework */; };
 		2675E647195DA3C300B48C37 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2675E646195DA3C300B48C37 /* MainStoryboard.storyboard */; };
 		2675E649195DA49300B48C37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2675E648195DA49300B48C37 /* QuartzCore.framework */; };
+		2675E64C195DB8F800B48C37 /* simple.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2675E64B195DB8F800B48C37 /* simple.vsh */; };
+		2675E64E195DBA2100B48C37 /* simple.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2675E64D195DBA2100B48C37 /* simple.fsh */; };
 		267F7E3F195C414A00A44C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E3E195C414A00A44C79 /* Foundation.framework */; };
 		267F7E41195C414A00A44C79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E40195C414A00A44C79 /* CoreGraphics.framework */; };
 		267F7E43195C414A00A44C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F7E42195C414A00A44C79 /* UIKit.framework */; };
@@ -42,6 +44,8 @@
 		2675E600195D9DCC00B48C37 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		2675E646195DA3C300B48C37 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2675E648195DA49300B48C37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2675E64B195DB8F800B48C37 /* simple.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = simple.vsh; path = Shaders/simple.vsh; sourceTree = "<group>"; };
+		2675E64D195DBA2100B48C37 /* simple.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = simple.fsh; path = Shaders/simple.fsh; sourceTree = "<group>"; };
 		267F7E3B195C414A00A44C79 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267F7E3E195C414A00A44C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		267F7E40195C414A00A44C79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,10 +90,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2675E64A195DB89000B48C37 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				2675E64B195DB8F800B48C37 /* simple.vsh */,
+				2675E64D195DBA2100B48C37 /* simple.fsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
 		267F7E32195C414A00A44C79 = {
 			isa = PBXGroup;
 			children = (
 				267F7E44195C414A00A44C79 /* Asteroids */,
+				2675E64A195DB89000B48C37 /* Shaders */,
 				267F7E5D195C414A00A44C79 /* AsteroidsTests */,
 				267F7E3D195C414A00A44C79 /* Frameworks */,
 				267F7E3C195C414A00A44C79 /* Products */,
@@ -244,6 +258,8 @@
 				2675E647195DA3C300B48C37 /* MainStoryboard.storyboard in Resources */,
 				267F7E49195C414A00A44C79 /* InfoPlist.strings in Resources */,
 				267F7E51195C414A00A44C79 /* Images.xcassets in Resources */,
+				2675E64E195DBA2100B48C37 /* simple.fsh in Resources */,
+				2675E64C195DB8F800B48C37 /* simple.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
